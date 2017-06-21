@@ -19,7 +19,7 @@
     "type": "MIT",
     "url": "http://www.opensource.org/licenses/MIT"
   } ],
-  "main": "./lib/passport-planningcenter-oauth2",
+  "main": "./lib/index.js",
   "dependencies": {
     "passport-oauth2": "1.x.x"
   },
