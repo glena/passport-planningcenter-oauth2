@@ -1,8 +1,16 @@
 {
   "name": "passport-planningcenter-oauth2",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Planning Center Oauth2 authentication strategy for Passport.",
-  "keywords": ["passport", "planning center", "auth", "authn", "authentication", "identity", "oauth2"],
+  "keywords": [
+    "passport",
+    "planning center",
+    "auth",
+    "authn",
+    "authentication",
+    "identity",
+    "oauth2"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/glena/passport-planningcenter-oauth2.git"
@@ -15,10 +23,12 @@
     "email": "german@auth0.com",
     "url": "https://auth0.com"
   },
-  "licenses": [ {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT"
-  } ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
   "main": "./lib/index.js",
   "dependencies": {
     "passport-oauth2": "1.x.x"
@@ -32,5 +42,7 @@
   "scripts": {
     "test": "node_modules/.bin/mocha --require test/bootstrap/node test/*.test.js"
   },
-  "engines": { "node": ">= 0.4.0" }
+  "engines": {
+    "node": ">= 0.4.0"
+  }
 }
